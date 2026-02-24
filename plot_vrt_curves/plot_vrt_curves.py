@@ -10,6 +10,8 @@ os.chdir(Path(__file__).resolve().parent)
 
 mpl.rcParams["font.family"] = "Times New Roman"
 mpl.rcParams["font.size"] = 12
+mpl.rcParams['pdf.fonttype'] = 42   # TrueType
+mpl.rcParams['ps.fonttype'] = 42
 
 x_min = 0.1
 

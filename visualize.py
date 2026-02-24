@@ -1,9 +1,12 @@
 import os
 import re
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import load_data
 ORANGE = [1.00, 0.43, 0.12]
 plt.rcParams['font.family'] = 'Times New Roman'
+mpl.rcParams['pdf.fonttype'] = 42   # TrueType
+mpl.rcParams['ps.fonttype'] = 42
 
 
 def _labelize(name: str) -> str:
